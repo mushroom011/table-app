@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.main {
+  display: grid;
+  background-color: #dfe3e8;
+  grid-template-columns: 1fr 5fr;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #212b36;
+  grid-row: 1 / 3;
+  padding: 1.25rem;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  gap: 1.8rem;
+  font-size: 18px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar a {
+  color: #919eab;
+  display: block;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  color: #f4f6f8;
+}
+
+.table {
+  background-color: #ffffff;
+  border-color: #e3e7eb;
+}
+
+h2 {
+  padding: 15px 0 0 15px;
+}
+
+.btn {
+  background-color: #f7faff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #c5ddff;
+  cursor: pointer;
+  color: #759ace;
+}
+
+label {
+  color: #5e5e5e;
+}
+
+input, select {
+  padding: 0.4rem 0 0.4rem 0.5rem;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+}
